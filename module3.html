@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Module 3 - Digital Citizenship Assessment</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: "Arial", sans-serif;
+      background: linear-gradient(135deg, #79d8f2, #b2f7ef);
+      margin: 0;
+      padding: 20px;
+    }
+
+    .header-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 30px;
+    }
+
+    .robot {
+      width: 80px;
+    }
+
+    nav {
+      display: flex;
+      gap: 40px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+      font-size: 22px;
+    }
+
+    .intro-box {
+      background-color: #79d8f2;
+      border-radius: 30px;
+      padding: 40px;
+      max-width: 900px;
+      margin: 40px auto;
+      box-shadow: 4px 4px 15px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+
+    .baloo-font {
+      font-family: 'Baloo Bhaijaan', cursive;
+      color: white;
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto 40px auto;
+    }
+
+    .content-box {
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 4px 4px 15px rgba(0,0,0,0.2);
+      color: black;
+    }
+
+    .box1 { background-color: #ffadad; }
+    .box2 { background-color: #ffd6a5; }
+    .box3 { background-color: #caffbf; }
+    .box4 { background-color: #9bf6ff; }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    .nav-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .circle-btn {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+      transition: background-color 0.3s;
+    }
+
+    .circle-btn:hover {
+      background-color: #45a049;
+    }
+
+    footer {
+      text-align: center;
+      margin: 30px 0;
+      font-size: 14px;
+      color: #333;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="header-bar">
+    <img src="https://cdn-icons-png.flaticon.com/512/4712/4712027.png" alt="Robot Icon" class="robot" />
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="module1.html">Module</a>
+      <a href="assessment.html">Assessment</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </div>
+
+  <div class="intro-box">
+    <h1 class="baloo-font">Stay Safe, Stay Smart Online</h1>
+  </div>
+
+  <div class="grid-container">
+    <div class="content-box box1">
+      <h2>Protect Your Personal Info</h2>
+      <p>🔒 Don’t share: full name, school name, address, phone number<br>
+         🔐 Set social media to private<br>
+         👤 Use nicknames or avatars online</p>
+    </div>
+
+    <div class="content-box box2">
+      <h2>Use Strong Passwords</h2>
+      <p>🔑 Use 8+ characters<br>
+         🔀 Mix letters, numbers & symbols<br>
+         🚫 Don’t use your name or birthday</p>
+    </div>
+
+    <div class="content-box box3">
+      <h2>Spotting Scams & Strangers</h2>
+      <p>⚠️ Don’t click on weird links<br>
+         🚷 Don’t reply to unknown DMs<br>
+         🤔 Trust your gut if something feels off</p>
+    </div>
+
+    <div class="content-box box4">
+      <h2>If Something Feels Wrong</h2>
+      <p>📢 Tell a trusted adult<br>
+         🛡️ Block the person<br>
+         🚫 Report the content</p>
+    </div>
+  </div>
+
+  <!-- Navigation Buttons -->
+  <div class="nav-buttons">
+    <button class="circle-btn" onclick="window.location.href='module2.html'">&lt;</button>
+    <button class="circle-btn" onclick="window.location.href='module4.html'">&gt;</button>
+  </div>
+
+  <footer>Copyright © 2025 Digital Edu. All Rights Reserved.</footer>
+</body>
+</html>
