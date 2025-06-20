@@ -35,13 +35,31 @@
         color: #1b1b1b;
         padding-left: 30px;
       }
-      nav a {
-        margin-left: 1.5rem;
-        text-decoration: none;
-        color: #333;
-        font-weight: 600;
-        font-size: 1.5rem;
-      }
+      
+ .header-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 30px;
+    }
+
+    .robot {
+      width: 80px;
+    }
+
+    nav {
+      display: flex;
+      gap: 40px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+      font-size: 22px;
+    }
+
+
       .header-section {
         text-align: center;
         margin: 2rem 0;
@@ -85,12 +103,6 @@
       }
       .modules a:nth-child(3) {
         background: linear-gradient(90deg, #f43f5e, #fb7185);
-      }
-      .modules a:nth-child(4) {
-        background: linear-gradient(90deg, #2563eb , #60a5fa  ); /* Biru */
-      }
-      .modules a:nth-child(5) {
-        background: linear-gradient(90deg, #8b5cf6, #6d28d9 ); /* Ungu */
       }
 
       .instructions {
@@ -156,40 +168,33 @@
     </style>
   </head>
   <body>
-    <header>
-      <div class="logo">🤖</div>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="module1.html">Module</a>
-        <a href="assessment.html">Assessment</a>
-        <a href="support.html">Support</a>
-      </nav>
-    </header>
+    
+  <div class="header-bar">
+    <img src="https://cdn-icons-png.flaticon.com/512/4712/4712027.png" alt="Robot Icon" class="robot" />
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="module1.html">Module</a>
+      <a href="assessment.html">Assessment</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </div>
+
 
     <div class="header-section">🧩 Ready to test what you've learned ?</div>
 
     <div class="content">
       <div class="modules">
-        <a href="https://wordwall.net/resource/93712487" target="_blank">
-          Module 1 – Digital Citizen ( Wordwall )</a
+        <a href="https://quizizz.com/join?gc=671148" target="_blank">
+          Module 1 – Digital Citizen</a
         >
         <a
           href="https://kahoot.it/challenge/0315551?challenge-id=151b88ca-3440-4e56-bd23-d1e691652350_1749102862710"
           target="_blank"
         >
-          Module 2 – Info Protection ( Kahoot )</a
-        >
-        <a
-          href="https://wordwall.net/resource/92741199"
-          target="_blank"
-        >
-          Module 2 – Info Protection ( Wordwall )</a
-        >
-        <a href="https://learningapps.org/watch?v=p2kpubnh525" target="_blank">
-          Module 3 – Cyberbullying ( Learning Apps )</a
+          Module 2 – Info Protection</a
         >
         <a href="https://wordwall.net/resource/93291781" target="_blank">
-          Module 3 – Cyberbullying ( Wordwall )</a 
+          Module 3 – Cyberbullying</a
         >
       </div>
       <div class="instructions">
@@ -198,7 +203,6 @@
             <li>Choose an assessment based on the module you've completed.</li>
             <li>Click the button to start. The quiz will open in a new tab.</li>
             <li>Come back here to continue to the next one !</li>
-            <li>In each module ( Wordwall ), a "Switch Template" feature is provided to allow users to try all types of templates provided.</li>
           </ul>
         </div>
         <div class="bottom-logo">🤖</div>
@@ -208,4 +212,3 @@
     <footer>Copyright © 2025 Digital Edu. All Rights Reserved.</footer>
   </body>
 </html>
-
